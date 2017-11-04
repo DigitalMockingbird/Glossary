@@ -8,10 +8,6 @@ import App from "./components/App";
 import initialState from "./reducers/initialState";
 import visibleGlossary from "./reducers/visibleGlossary";
 
-import allReducers from "./old/index";
-import toggleDuplicates from "./old/toggleDuplicates";
-import toggleAlphabetical from "./old/toggleAlphabetical";
-
 let store = createStore(
     visibleGlossary,
     initialState,
