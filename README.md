@@ -22,7 +22,7 @@ npm run server
 
 - The entrypoint is exported to `App.js`, which serves as a container for the glossary and filter manipulation buttons.
 
-The redux state can be represented as the following:
+The redux state can be represented as the following object:
 
 ```javascript
 let initialState = {
@@ -37,7 +37,7 @@ let initialState = {
 
 # Instructions for challenge
 
-# TODO
+## TODO
 
 For this test
 
